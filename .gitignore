@@ -1,0 +1,11 @@
+node_modules/
+lib/
+es/
+storybook-static/
+
+.DS_Store
+.env
+*.lock
+*-lock.yaml
+*-error.log
+*-debug.log
