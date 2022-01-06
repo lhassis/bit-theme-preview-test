@@ -10,26 +10,26 @@
 
 {
     "envs/themed-react": {
-        "scope": "",
-        "version": "",
+        "scope": "lhassis.theme-test",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "sms/components/envs/themed-react"
     },
     "general/button": {
-        "scope": "",
-        "version": "",
+        "scope": "lhassis.theme-test",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "sms/components/general/button"
     },
     "themes/global-style": {
-        "scope": "",
-        "version": "",
+        "scope": "lhassis.theme-test",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "sms/components/themes/global-style"
     },
     "themes/plasma-theme-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "lhassis.theme-test",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "sms/components/themes/plasma-theme-provider"
     },

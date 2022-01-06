@@ -66,9 +66,42 @@ export class ThemedReactMain {
        * Uncomment types to include version 17.0.3 of the types package
        */
       react.overrideDependencies({
+        dependencies: {
+          react: '-',
+          'react-dom': '-',
+          'react-is': '-',
+          'styled-components': '-',
+          '@lhassis/theme-test.themes.plasma-theme-provider': '-'
+        },
         devDependencies: {
-          // '@types/react': '17.0.3'
-        }
+          react: '-',
+          'react-dom': '-',
+          'react-is': '-',
+          'styled-components': '-',
+          '@lhassis/theme-test.themes.plasma-theme-provider': '-'
+        },
+        peerDependencies: {
+          react: {
+            version: "17.0.2",
+            resolveFromEnv: true,
+          },
+          "react-dom": {
+            version: "17.0.2",
+            resolveFromEnv: true,
+          },
+          "react-is": {
+            version: "17.0.2",
+            resolveFromEnv: true,
+          },
+          "styled-components": {
+            version: "5.3.3",
+            resolveFromEnv: true,
+          },
+          '@lhassis/theme-test.themes.plasma-theme-provider': {
+            version: 'latest',
+            resolveFromEnv: true,
+          }
+        },
       })
     ]);
     envs.registerEnv(templatesReactEnv);
